@@ -83,17 +83,17 @@
   background-size: cover;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .card-content {
     flex-direction: column-reverse;
     justify-content: space-between;
-    width: 98vw;
-    height: 98vh;
+    width: 90vw;
+    height: 130vh;
   }
 
   .card-content .description {
     width: auto;
-    height: 78%;
+    height: 80%;
     text-align: center;
     padding: 1.5rem;
   }
@@ -103,7 +103,8 @@
   }
 
   .card-content .values .companies,
-  .card-content .values .template {
+  .card-content .values .template,
+  .card-content .values .queries {
     margin-bottom: 2rem;
   }
 
